@@ -1,0 +1,11 @@
+specVersion: 0.36.0
+name: hello
+runtime: go
+registry: docker.io/doyleaaron
+namespace: default
+created: 2025-03-26T21:21:33.701128Z
+build:
+  builder: pack
+deploy:
+  namespace: default
+  image: index.docker.io/doyleaaron/hello@sha256:43ce3e4efac927348b11d842d4df6734c0b895640909deb0d03b58bac33f5236
